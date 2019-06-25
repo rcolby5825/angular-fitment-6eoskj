@@ -1,0 +1,6 @@
+<button (click)="selectVehicleFitment()"> Select vehicle fitment</button>
+
+<div class="container" *ngFor="let year of (years$ | async)">
+  <button>{{year}}</button>
+</div>
+
